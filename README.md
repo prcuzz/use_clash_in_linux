@@ -20,7 +20,9 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 
 ## 配置
 
-将Country.mmdb和config.yaml放到~/.config/clash/下，解压、运行clash。
+将Country.mmdb和config.yaml放到~/.config/clash/下。
+
+解压、运行clash。
 
 登录<http://clash.razord.top/#/proxies>可以管理clash配置。
 
