@@ -1,5 +1,7 @@
 # use_clash_in_linux
 
+在linux中用clash翻墙的笔记。
+
 ## 下载
 
 ### 下载clash
