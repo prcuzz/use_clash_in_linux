@@ -1,6 +1,6 @@
 # use_clash_in_linux
 
-在linux中用clash翻墙的笔记。
+在linux虚拟机中用clash翻墙的笔记。
 
 ## 下载
 
@@ -21,6 +21,8 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 ```
 
 ## 配置
+
+把宿主机上clash的配置（一般是C:\Users\xxx\.config\clash下的文件）复制到虚拟机~/.config/clash/下。
 
 将Country.mmdb和config.yaml放到~/.config/clash/下。
 
