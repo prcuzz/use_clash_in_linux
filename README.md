@@ -14,6 +14,8 @@
 wget -O config.yaml 你的clash的订阅地址
 ```
 
+也可以把windows上的yaml文件复制过来，改个名字。clash for windows，profiles，右击正在使用的那个yaml文件，show in folder，就可以找到；路径一般是C:\Users\xxx\\.config\clash\profiles。
+
 Glados提供的网址如下，
 
 ```
@@ -27,8 +29,6 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 ```
 
 ## 配置
-
-~~把宿主机上clash的配置（一般是C:\Users\xxx\.config\clash下的文件）复制到虚拟机~/.config/clash/下。~~
 
 将Country.mmdb和config.yaml放到~/.config/clash/下。
 
