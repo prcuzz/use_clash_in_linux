@@ -11,6 +11,12 @@
 ### 下载config.yaml
 
 ```
+wget -O config.yaml 你的clash的订阅地址
+```
+
+Glados提供的网址如下，
+
+```
 wget -O config.yaml https://update.glados-config.net/clash/73020/ac2a3dc/25084/glados_new.yaml
 ```
 
@@ -22,7 +28,7 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 
 ## 配置
 
-把宿主机上clash的配置（一般是C:\Users\xxx\.config\clash下的文件）复制到虚拟机~/.config/clash/下。
+~~把宿主机上clash的配置（一般是C:\Users\xxx\.config\clash下的文件）复制到虚拟机~/.config/clash/下。~~
 
 将Country.mmdb和config.yaml放到~/.config/clash/下。
 
