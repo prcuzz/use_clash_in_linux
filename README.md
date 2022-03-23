@@ -44,6 +44,16 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 
 然后就可以愉快上网了。
 
+## 使用 proxychain
+
+用 apt install 安装 proxychain；
+
+修改 /etc/proxychains.conf，在最后加入一行： socks 物理机IP 端口(一般为7890)；
+
+开启物理机上 clash 的允许局域网连接选项，代理模式改为全局；
+
+在需要代理的指令前加 proxychains。
+
 ## 我的环境
 
 ubuntu18虚拟机。
@@ -55,3 +65,5 @@ ubuntu18虚拟机。
 <https://www.jianshu.com/p/acdda87d77e4>
 
 <https://zhuanlan.zhihu.com/p/366589407>
+
+<https://blog.51cto.com/u_15075508/3634165>
