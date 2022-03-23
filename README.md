@@ -48,7 +48,7 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 
 用 apt install 安装 proxychain；
 
-修改 /etc/proxychains.conf，在最后加入一行： socks 物理机IP 端口(一般为7890)；
+修改 /etc/proxychains.conf，在最后加入一行： socks5 物理机IP 端口(一般为7890)；
 
 开启物理机上 clash 的允许局域网连接选项，代理模式改为全局；
 
