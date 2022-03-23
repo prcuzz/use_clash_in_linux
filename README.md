@@ -44,15 +44,22 @@ wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 
 然后就可以愉快上网了。
 
-## 使用 proxychain
+## 使用 proxychain（不用到虚拟机中的clash，而是用宿主机的clash）
+
+上面的步骤都不要做；
 
 用 apt install 安装 proxychain；
 
-修改 /etc/proxychains.conf，在最后加入一行： socks5 物理机IP 端口(一般为7890)；
+修改 /etc/proxychains.conf，在最后加入一行： socks5 宿主机IP 端口(一般为7890)；
 
-开启物理机上 clash 的允许局域网连接选项，代理模式改为全局；
+开启宿主机上 clash 的允许局域网连接选项，代理模式改为全局；
 
-在需要代理的指令前加 proxychains。
+在需要代理的指令前加 proxychains：
+
+```
+# 举例
+sudo proxychains docker pull xxx
+```
 
 ## 我的环境
 
